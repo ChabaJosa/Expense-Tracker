@@ -4,10 +4,10 @@ import AppReducer from "./AppReducer"
 // // Initial State: Any state that's applied in a global scale
 const initialState = {
     transactions: [
-            { id: 1, text: 'MCU First 10 years feattured box set', amount: -20 },
-            { id: 2, text: 'Found change in the back of my truck', amount: 300 },
-            { id: 3, text: 'Bought 246 Udemy courses', amount: -10 },
-            { id: 4, text: 'My brother paid me back', amount: 150 }
+            { id: 1, text: 'Movie Popcorn', amount: -20 },
+            { id: 2, text: 'Sold website in Fiverr', amount: 300 },
+            { id: 3, text: 'Bought 50 Udemy courses', amount: -100 },
+            { id: 4, text: 'Amazon Prime', amount: 150 }
         ]
 }
 
