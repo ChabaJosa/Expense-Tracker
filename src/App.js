@@ -4,9 +4,11 @@ import {Balance}            from "./components/Balance"           // not sure if
 import {IncomeExpenses}     from "./components/IncomeExpenses"    
 import {TransactionList}    from "./components/TransactionList"   
 import {AddTransaction}     from "./components/AddTransaction"    
-
 import {GlobalProvider}     from "./context/GlobalState"
+import { Container }        from "react-bootstrap";
 
+
+import "bootstrap/dist/css/bootstrap.css";
 import './App.css';
 
 const App = () => {
@@ -17,14 +19,25 @@ const App = () => {
     <GlobalProvider>
 
       <Header/>
-      <div className="container">
 
-        <Balance          />
-        <IncomeExpenses   />
-        <TransactionList  />
-        <AddTransaction   />
-        
-      </div>    
+      {/* <div className="d-flex flex-row"> */}
+
+        <Container >
+          <Balance          />
+          <IncomeExpenses   />
+          <TransactionList  />
+          <AddTransaction   />
+        </Container>    
+
+        {/* <div className="container">
+          <Balance          />
+          <IncomeExpenses   />
+          <TransactionList  />
+          <AddTransaction   />
+        </div>  */}
+
+      {/* </div> */}
+      
 
     </GlobalProvider>
   );
