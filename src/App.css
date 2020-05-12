@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #1b1f22;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,6 +38,7 @@ h3 {
 h4 {
   margin: 0;
   text-transform: uppercase;
+  color: #1b1f22;
 }
 
 .inc-exp-container {
@@ -47,6 +48,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+  border-radius: 1em;
 }
 
 .inc-exp-container > div {
@@ -79,12 +81,17 @@ label {
 
 input[type='text'],
 input[type='number'] {
+  background: transparent;
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
   font-size: 16px;
   padding: 10px;
   width: 100%;
+}
+
+input[type='number']::placeholder { 
+  color:  #1b1f22;
 }
 
 .btn {

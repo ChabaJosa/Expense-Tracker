@@ -4,7 +4,7 @@ import React from 'react'
 export const Header = () => {
 
     return (
-        <h2>
+        <h2 style={{marginTop:"1em"}}>
             Expense Tracker
         </h2>
     )
