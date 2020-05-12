@@ -24,8 +24,8 @@ const Home = () => {
                         </div>
                         <div className="content">
                             <div className="inner">
-                                <h1>Trackster</h1>
-                                <p>
+                                <h1 >Trackster</h1>
+                                <p className="hover-underline-animation">
                                     Track your expenses your way.
                                     {/* <br /> for free under the */}
                                 </p>
@@ -33,10 +33,10 @@ const Home = () => {
                         </div>
                         <nav>
                             <ul>
-                                <li><a href="#intro">   Intro     </a></li>
-                                <li><a href="#work">    Use       </a></li>
-                                <li><a href="#about">   Tech      </a></li>
-                                <li><a href="#contact"> Info      </a></li>
+                                <li><a href="#intro"    style={{color:"#85bb65"}} >   Intro     </a></li>
+                                <li><a href="#work"     style={{color:"#85bb65"}} >    Use       </a></li>
+                                <li><a href="#about"    style={{color:"#85bb65"}} >   Tech      </a></li>
+                                <li><a href="#contact"  style={{color:"#85bb65"}} > Info      </a></li>
                                 {/*<li><a href="#elements">Elements</a></li>*/}
                             </ul>
                         </nav>
