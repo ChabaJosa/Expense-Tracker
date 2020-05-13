@@ -33,8 +33,8 @@ const Home = () => {
                         </div>
                         <nav>
                             <ul>
-                                <li><a href="#intro"    style={{color:"#85bb65"}} >   Intro     </a></li>
                                 <li><a href="#work"     style={{color:"#85bb65"}} >    Use       </a></li>
+                                <li><a href="#intro"    style={{color:"#85bb65"}} >   Next     </a></li>
                                 <li><a href="#about"    style={{color:"#85bb65"}} >   Tech      </a></li>
                                 <li><a href="#contact"  style={{color:"#85bb65"}} > Info      </a></li>
                                 {/*<li><a href="#elements">Elements</a></li>*/}
@@ -44,26 +44,35 @@ const Home = () => {
                     </header>
                     {/* Main */}
                     <div id="main">
-                        {/* Intro */}
-                        <article id="intro">
-                            <h2 className="major">Intro</h2>
-                            {/* <span className="image main"><img src="images/pic01.jpg" alt="" /></span> */}
-                            <p style={{color:"white"}}>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-                            <p style={{color:"white"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                        </article>
+
                         {/* Work */}
                         <article id="work">
                             <h2 className="major">Use</h2>
                             {/* <span className="image main"><img src="images/pic02.jpg" alt="" /></span> */}
-                            <p style={{color:"white"}}>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+                            <p style={{color:"white"}}>Add your expenses and incomes, classify them as either fixed or varible and add the information you believe is valuable for each one. The App should mantain simplicity above all other things, which is an issue with similar Apps as far as ux goes.</p>
                         </article>
+
+                        {/* Intro */}
+                        <article id="intro">
+                            <h2 className="major">Next</h2>
+                            {/* <span className="image main"><img src="images/pic01.jpg" alt="" /></span> */}
+                            <p style={{color:"white"}}>The fixed costs would have multiple fields that would only be filled once. Some of those fields would be description, frequency, due dates (for expenses) and other information that the user finds important.</p>
+                            
+                            <p style={{color:"white"}}>Due dates will be checkable so the user can keep track of what he has already paid off. Once the API is created, every user should be able to generate queries to look up their history of fixed expenses and/or incomes. Variable expenses are attached to a budget and variable incomes are to enlarge the initial budget. Eventually, it would be ideal to find patterns in variable expenses to give tailored recommendations to each user.</p>
+
+                        </article>
+
                         {/* About */}
                         <article id="about">
                             <h2 className="major">Tech</h2>
                             {/* <span className="image main"><img src="images/pic03.jpg" alt="" /></span> */}
-                            <p style={{color:"white"}}>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+                            <p style={{color:"white"}}>This App is currently a ReactJS App currently in the works for future implementations with the MERN Solution Stack.</p>
+                            {/* <br></br> */}
+                            <p style={{color:"white"}}>MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications and comprises of 4 technologies namely: MongoDB, Express, React and Node.js. It is designed to make the development process smoother and easier.</p>
+                            {/* <br></br> */}
+                            <p style={{color:"white"}}>Each of these 4 powerful technologies provides an end-to-end framework for the developers to work in and each of these technologies play a big part in the development of web applications.</p>
                         </article>
+
                         {/* Contact */}
                         <article id="contact">
                             <h2 className="major">Info</h2>
@@ -88,10 +97,10 @@ const Home = () => {
                                 </ul>
                             </form>
                             <ul className="icons">
-                                <li><a href="#" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
-                                <li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
-                                <li><a href="#" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
-                                <li><a href="#" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
+                                <li><a href="https://twitter.com/CG_Josa" className="icon brands fa-twitter"></a></li>
+                                {/* <li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li> */}
+                                <li><a href="https://www.instagram.com/chaba.josa/" className="icon brands fa-instagram"></a></li>
+                                <li><a href="https://github.com/ChabaJosa" className="icon brands fa-github"></a></li>
                             </ul>
                         </article>
                         
