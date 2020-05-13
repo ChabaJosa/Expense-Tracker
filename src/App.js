@@ -2,7 +2,7 @@ import React                              from 'react';
 import {GlobalProvider}                   from "./context/GlobalState"
 import { Route, Switch, BrowserRouter }   from "react-router-dom";
 import Home                               from "./components/LandingPage/html5up-dimension/Home"
-import Tracker                     from "./components/ExpenseTracker"
+import Tracker                            from "./components/ExpenseTracker"
 
 import "bootstrap/dist/css/bootstrap.css";
 import './App.css';
@@ -18,7 +18,7 @@ const App = () => {
         <Switch>
           <Route exact path="/tracker" 
             render={(props) =>  <Tracker  {...props}  />}  />
-          <Route exact path="/"             
+          <Route path="/"             
             render={(props) =>  <Home     {...props}  />} />
         </Switch>
       </BrowserRouter>
