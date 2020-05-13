@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dda98cc10ef85f52f4a10b32b190db59",
+    "revision": "36058b4ec19b645f05750ef4177a318a",
     "url": "/Expense-Tracker/index.html"
   },
   {
-    "revision": "335d9ba4056da36d3f3b",
+    "revision": "e38052a81a97a3f8c16a",
     "url": "/Expense-Tracker/static/css/2.de8ed8a5.chunk.css"
   },
   {
-    "revision": "ddebcbb94d4193de93b0",
+    "revision": "b399e08d30bce89e6bdf",
     "url": "/Expense-Tracker/static/css/main.389ccd6f.chunk.css"
   },
   {
-    "revision": "335d9ba4056da36d3f3b",
-    "url": "/Expense-Tracker/static/js/2.be5523da.chunk.js"
+    "revision": "e38052a81a97a3f8c16a",
+    "url": "/Expense-Tracker/static/js/2.e79f8533.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Expense-Tracker/static/js/2.be5523da.chunk.js.LICENSE.txt"
+    "url": "/Expense-Tracker/static/js/2.e79f8533.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ddebcbb94d4193de93b0",
-    "url": "/Expense-Tracker/static/js/main.2637f9f6.chunk.js"
+    "revision": "b399e08d30bce89e6bdf",
+    "url": "/Expense-Tracker/static/js/main.7a2be272.chunk.js"
   },
   {
     "revision": "df36d442ca549fef3446",
