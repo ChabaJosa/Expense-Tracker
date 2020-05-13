@@ -27,10 +27,10 @@ const App = () => {
 
     <HashRouter basename='/'>
       <div>
-        <ul>
+        {/* <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/tracker">App</Link></li>
-        </ul>
+        </ul> */}
         <Switch>
           <Route exact path="/"   component={Home} />
           <Route path="/tracker"  component={Tracker} />
