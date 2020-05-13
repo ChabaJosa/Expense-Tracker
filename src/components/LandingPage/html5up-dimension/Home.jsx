@@ -33,14 +33,14 @@ const Home = () => {
                         </div>
                         <nav>
                             <ul>
-                                <li><a href="#work"     style={{color:"#85bb65"}} >    Use       </a></li>
-                                <li><a href="#intro"    style={{color:"#85bb65"}} >   Next     </a></li>
+                                <li><a href="#work"     style={{color:"#85bb65"}} >   Use       </a></li>
+                                <li><a href="#intro"    style={{color:"#85bb65"}} >   Next      </a></li>
                                 <li><a href="#about"    style={{color:"#85bb65"}} >   Tech      </a></li>
-                                <li><a href="#contact"  style={{color:"#85bb65"}} > Info      </a></li>
+                                <li><a href="#contact"  style={{color:"#85bb65"}} >   Info      </a></li>
                                 {/*<li><a href="#elements">Elements</a></li>*/}
                             </ul>
                         </nav>
-                        <a href="/Tracker" className="button primary">App</a>
+                        <a href="/#/tracker" className="button primary">App</a>
                     </header>
                     {/* Main */}
                     <div id="main">
