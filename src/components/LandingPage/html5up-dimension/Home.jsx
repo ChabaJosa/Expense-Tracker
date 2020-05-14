@@ -14,7 +14,7 @@ const Home = () => {
 
 
 
-            <div>
+            <div className="container">
                 {/* Wrapper */}
                 <div id="wrapper">
                     {/* Header */}
