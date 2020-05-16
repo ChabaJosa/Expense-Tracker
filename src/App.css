@@ -12,10 +12,10 @@ body {
   background-color: #1b1f22;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   min-height: 100vh;
-  margin: 0;
+  margin: 3vw;
   font-family: 'Lato', sans-serif;
 }
 
