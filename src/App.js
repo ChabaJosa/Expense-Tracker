@@ -10,26 +10,14 @@ import './App.css';
 
 const App = () => {
 
+  // Fixed the heroku deployment issue with this link https://stackoverflow.com/questions/44319832/react-app-runs-locally-crashes-when-on-heroku-error-code-h10
 
   return (
     // It all must be wrapped in the Global Provider to access the Global State value
     <GlobalProvider>
 
-      {/* <Router basename="/#">
-        <Switch>
-          <Route path="/tracker" 
-            render={(props) =>  <Tracker  {...props}  />}  />
-          <Route path="/home"             
-            render={(props) =>  <Home     {...props}  />} />
-        </Switch>
-      </Router> */}
-
     <BrowserRouter basename='/'>
       <div>
-        {/* <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/tracker">App</Link></li>
-        </ul> */}
         <Switch>
           <Route exact path="/"   component={Home} />
           <Route path="/tracker"  component={Tracker} />
