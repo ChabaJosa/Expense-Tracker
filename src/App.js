@@ -1,7 +1,6 @@
 import React                              from 'react';
 import {GlobalProvider}                   from "./context/GlobalState"
 import { Route, Switch, BrowserRouter }   from "react-router-dom";
-import {HashRouter, Link}                       from "react-router-dom"
 
 import Home                               from "./components/LandingPage/html5up-dimension/Home"
 import Tracker                            from "./components/ExpenseTracker"
@@ -25,7 +24,7 @@ const App = () => {
         </Switch>
       </Router> */}
 
-    <HashRouter basename='/'>
+    <BrowserRouter basename='/'>
       <div>
         {/* <ul>
         <li><Link to="/">Home</Link></li>
@@ -37,7 +36,7 @@ const App = () => {
         </Switch>
        
       </div>
-    </HashRouter>
+    </BrowserRouter>
 
     </GlobalProvider>
   );

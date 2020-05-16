@@ -40,7 +40,7 @@ const Home = () => {
                                 {/*<li><a href="#elements">Elements</a></li>*/}
                             </ul>
                         </nav>
-                        <a href="/#/tracker" className="button primary">App</a>
+                        <a href="/tracker" className="button primary">App</a>
                     </header>
                     {/* Main */}
                     <div id="main">
