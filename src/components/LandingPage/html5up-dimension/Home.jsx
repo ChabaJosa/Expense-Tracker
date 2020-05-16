@@ -24,7 +24,7 @@ const Home = () => {
                         </div>
                         <div className="content">
                             <div className="inner">
-                                <h1 >Trackster</h1>
+                                <h1 >Trakster</h1>
                                 <p className="hover-underline-animation">
                                     Track your expenses your way.
                                     {/* <br /> for free under the */}
