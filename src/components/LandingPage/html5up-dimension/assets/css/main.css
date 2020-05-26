@@ -704,9 +704,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		/* @media screen and (max-width: 736px) { */
-		@media screen {
-
+		@media screen and (max-width: 736px) {
 
 			.image.main {
 				margin: 2rem 0;
@@ -714,9 +712,7 @@ input, select, textarea {
 
 		}
 
-		/* @media screen and (max-width: 480px) { */
 		@media screen and (max-width: 480px) {
-
 
 			.image.main {
 				margin: 1.5rem 0;
@@ -1144,12 +1140,9 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			background-size: auto, 256px 256px;
+			background-position: center, center;
+			background-repeat: no-repeat, repeat;
 			z-index: 2;
 		}
 
@@ -1205,7 +1198,7 @@ input, select, textarea {
 		justify-content: space-between;
 		position: relative;
 		min-height: 100vh;
-		/* width: 100%; */
+		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
 	}
@@ -1548,7 +1541,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			/* width: 40rem; */
+			width: 40rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
