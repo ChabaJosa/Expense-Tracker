@@ -5,6 +5,8 @@ import { Balance }              from "./ExpenseTracker/Expenses/Balance"        
 import { IncomeExpenses }       from "./ExpenseTracker/Expenses/IncomeExpenses"
 import { TransactionList }      from "./ExpenseTracker/Expenses/TransactionList"
 import { AddTransaction }       from "./ExpenseTracker/Expenses/AddTransaction"
+import { Fixed }                from "./ExpenseTracker/Expenses/Fixed"
+import { Variable }             from "./ExpenseTracker/Expenses/Variable"
 // import { Container }         from "react-bootstrap";
 import Pic1                     from "./ExpenseTracker/Expenses/backgroundImages/dollar.png"
 import Pic2                     from "./ExpenseTracker/Expenses/backgroundImages/calculator.jpg"
@@ -27,18 +29,21 @@ const ExpenseTracker = (props) => {
     return (
         <GlobalProvider>
             <>
-            <div className="d-flex flex-row justify-content-around" style={{
-                backgroundSize:"cover", 
-                backgroundRepeat:" no-repeat",
-                backgroundImage:  `linear-gradient(
-                    rgba(0, 0, 0, 0.5),
-                    rgba(0, 0, 0, 0.5)
-                    ),url(${randomElement(backImgs)})`
+            <div 
+                className="d-flex flex-column justify-content-around" 
+                // style={{
+                // backgroundSize:"cover", 
+                // backgroundRepeat:" no-repeat",
+                // // border-
+                // backgroundImage:  `linear-gradient(
+                //     rgba(0, 0, 0, 0.5),
+                //     rgba(0, 0, 0, 0.5)
+                //     ),url(${randomElement(backImgs)})`
                 
-            }}
+            // }}
             >
                 <div>
-                    <Header />
+                    <Header name={"Expense Tracker"}/>
                     <>
                         <Balance />
                         <IncomeExpenses />
@@ -49,23 +54,17 @@ const ExpenseTracker = (props) => {
                 </div>
 
                 <div>
-                    <Header />
+                    <Header name={"Fixed Expenses"}/>
                     <>
-                        <Balance />
-                        <IncomeExpenses />
-                        <TransactionList />
-                        <AddTransaction />
+                        <Fixed />
                     </>
 
                 </div>
 
                 <div>
-                    <Header />
+                    <Header name={"Variable Expenses"}/>
                     <>
-                        <Balance />
-                        <IncomeExpenses />
-                        <TransactionList />
-                        <AddTransaction />
+                        <Variable />
                     </>
 
                 </div>
