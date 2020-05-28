@@ -11,7 +11,7 @@ export const TransactionList = () => {
 
     return (
         <>
-            <h3>History</h3>
+            <h3>Recent Transactions</h3>
             <ul id="list" className="list">
                 {transactions.map( transaction => {
                     const sign          = transaction.amount < 0 ? '-' : '+';

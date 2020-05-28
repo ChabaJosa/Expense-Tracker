@@ -1,8 +1,7 @@
 import React, {useState, useContext} from 'react'
 import {GlobalContext} from "../../../context/GlobalState"
+import { Form, FormGroup, Label, Input } from 'reactstrap';
 import { Container, Row, Col } from "react-bootstrap";
-
-
 
 export const AddTransaction = () => {
 
@@ -40,12 +39,22 @@ export const AddTransaction = () => {
                     >
                     <input type="number" value={amount} onChange={(e) => setAmount(Number(e.target.value))} id="amount" placeholder="Enter amount..." />
                 </div>
+
+                <FormGroup check inline>
+                        <Label check>
+                        <Input type="checkbox" /> Fixed
+                        </Label>
+                    </FormGroup>
+                    <FormGroup check inline>
+                        <Label check>
+                        <Input type="checkbox" /> Variable
+                        </Label>
+                    </FormGroup>
+
                 <button className="btn">Add transaction</button>
             </form>
-        </Col>
-            
 
-            
+        </Col>
 
         </>
     )
