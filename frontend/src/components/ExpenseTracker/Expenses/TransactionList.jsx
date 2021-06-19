@@ -2,17 +2,18 @@ import React, { useContext, useEffect } from "react";
 import { GlobalContext } from "../../../context/GlobalState";
 
 export const TransactionList = () => {
-  const { transactions, getTransactions, deleteTransaction } = useContext(GlobalContext);
+  const { transactions, getTransactions, deleteTransaction } =
+    useContext(GlobalContext);
 
-  useEffect(()=> {
-      getTransactions()
-      // This will fire a warning that's disbale with eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  useEffect(() => {
+    getTransactions();
+    // This will fire a warning that's disbale with eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   console.log("This is context", transactions);
   // Returns transactions array
 
   return (
-    <>
+    <div>
       <h3>Recent Transactions</h3>
       <ul id="list" className="list">
         {transactions.map((transaction) => {
@@ -33,6 +34,6 @@ export const TransactionList = () => {
           );
         })}
       </ul>
-    </>
+    </div>
   );
 };
